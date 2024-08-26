@@ -1,0 +1,16 @@
+---
+name: debugrb
+description: Solargraph is a Ruby gem that provides debugging functionality to Ruby (MRI) 2.7 and later.
+homepage: https://github.com/ruby/debug
+licenses:
+  - BSD-2-Clause
+languages:
+  - Ruby
+categories:
+  - DAP
+
+source:
+  id: pkg:gem/debug@1.9.2
+
+bin:
+  rdbg: gem:rdbg
